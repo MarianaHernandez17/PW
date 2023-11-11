@@ -1,0 +1,191 @@
+/*
+    Selector{
+        propiedad: valor;
+        propiedad: valor;
+    }
+*/
+/*Barra de navegacion*/
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+}
+.nav-item{
+    width: 250px;
+    height: auto;
+    /*Eliminar puntito*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /*Centrado Verticalmente*/
+    align-items: center; 
+    position:absolute;
+    right: 30px;
+    top:70px;
+
+}
+.nav-item a{
+    color: black;
+    margin-right: 20px;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.Imagen1{
+    width: 300px;
+    height: 150px;
+}
+.Imagen2{
+    width: 300px;
+    height: 150px;
+}
+.Imagen3{
+    width: 300px;
+    height: 150px;
+}
+.Imagen4{
+    width: 300px;
+    height: 150px;
+}
+body{
+    color: #4a4b4b;
+    font-family: Rubik,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    }
+
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 100%;
+}
+.Indice{
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    list-style-type: circle;
+    width: 10%;
+    background-color: rgb(232, 233, 235);
+    color: #868994;
+}
+
+h1{
+    color: #0c0c0c;
+    text-align: left;
+
+
+}
+
+h3{
+    color: rgb(2, 2, 58);
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+div{
+    div
+    a{
+    color: rgb(124, 15, 141);
+    }
+}
+.TelarJacquard{
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+}
+.c_grid {
+    display: grid;
+    gap: 5px;
+}
+.Indice{
+    grid-column: 1/3;
+    grid-row: 1;
+
+}
+.Contenido{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.BajoN{
+    width: 500px;
+    height: 200px;
+    align-items: center;
+}
+
+.ensamblador{
+    width: 500px;
+    height: 300px;
+    align-content: center;
+}
+.pc{
+    width: 400px;
+}
+.c{
+    width: 300px;
+}
+.maq{
+    width: 500px;
+}
+.js{
+    width: 500px;
+    height: 300px;
+}
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
